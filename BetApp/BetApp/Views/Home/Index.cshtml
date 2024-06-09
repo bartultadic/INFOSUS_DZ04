@@ -1,0 +1,28 @@
+﻿@model DashboardData
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        <partial name="ActiveBets" model="Model.ActiveBets" />
+    </div>
+    <div class="col-lg-6">
+        <partial name="FinishedBets" model="Model.FinishedBets" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <partial name="MyTasks" model="Model.MyTasks" />
+    </div>
+</div>
+
+@if (Model.AdminTasks != null)
+{
+    <div class="row">
+        <div class="col-lg-12">
+            <partial name="AdminTasks" model="Model.AdminTasks" />
+        </div>
+    </div>
+}

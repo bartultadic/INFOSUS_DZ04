@@ -1,0 +1,11 @@
+﻿@model BetApp.Models.TaskInfo
+
+<td>
+    <form asp-action="EnterBetAmount" method="post">
+        <label for="betAmount">Bet Amount:</label>
+        <input type="number" name="betAmount" required />
+        <input type="hidden" name="taskId" value="@Model.TID" />
+        <input type="hidden" name="user" value="@Model.BetUser" />
+        <input type="submit" class="btn btn-primary btn-sm" value="Submit Amount" />
+    </form>
+</td>

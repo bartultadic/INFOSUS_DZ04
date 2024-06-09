@@ -1,0 +1,12 @@
+﻿@model TaskInfo
+<td>
+    <form asp-action="@nameof(HomeController.SetBetResult)" method="post">
+        <label for="result">Result: </label>
+        <select name="result">
+            <option value="Win">Win</option>
+            <option value="Lose">Lose</option>
+        </select>
+        <input type="hidden" name="taskId" value="@Model.TID" />
+        <input type="submit" class="btn btn-primary btn-sm" value="Set Result" />
+    </form>
+</td>

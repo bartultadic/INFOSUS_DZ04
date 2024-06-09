@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BetApp.Models.TaskInfo>
+
+<table class="table-striped table-bordered dashboard">
+    <caption>My tasks</caption>
+    <thead>
+        <tr>
+            <th scope="col">PID</th>
+            <th scope="col">Task Id</th>
+            <th scope="col">Task Name</th>
+            <th scope="col">Bet</th>
+            <th scope="col">User</th>
+            <th scope="col">Started</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var info in Model)
+        {
+            <tr>
+                <td>@info.PID</td>
+                <td>@info.TID</td>
+                <td>@info.TaskName</td>
+                <td>@info.BetId</td>
+                <td>@info.BetUser</td>
+                <td>@info.StartTime</td>
+                @switch (info.TaskKey)
+                {
+                    case "Task_ApproveBet":
+                        <partial name="Task_ApproveBet" model="info" />
+                        break;
+                    case "Task_SetBetResult":
+                        <partial name="Task_SetBetResult" model="info" />
+                        break;
+                    case "Activity_10v6h66": // Enter Bet Amount
+                        <partial name="Task_EnterBetAmount" model="info" />
+                        break;
+                    default:
+                        <td>
+                            <form asp-action="FinishTask" method="post">
+                                <input type="hidden" name="taskId" value="@info.TID" />
+                                <input type="hidden" name="user" value="@info.BetUser" />
+                                <input type="submit" class="btn btn-primary btn-sm" value="Finish task" />
+                            </form>
+                        </td>
+                        break;
+                }
+            </tr>
+        }
+    </tbody>
+</table>

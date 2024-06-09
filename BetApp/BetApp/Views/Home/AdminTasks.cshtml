@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BetApp.Models.TaskInfo>
+
+<table class="table table-striped table-bordered dashboard">
+    <caption>Admin Tasks</caption>
+    <thead>
+        <tr>
+            <th scope="col">PID</th>
+            <th scope="col">Task Id</th>
+            <th scope="col">Task Name</th>
+            <th scope="col">User</th>
+            <th scope="col">Started</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in Model)
+        {
+            <tr>
+                <td>@task.PID</td>
+                <td>@task.TID</td>
+                <td>@task.TaskName</td>
+                <td>@task.StartTime</td>
+                <td>
+                    <form asp-action="PickTask" asp-controller="Home" method="post">
+                        <input type="hidden" name="taskId" value="@task.TID" />
+                        <input type="submit" class="btn btn-primary btn-sm" value="Pick task" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

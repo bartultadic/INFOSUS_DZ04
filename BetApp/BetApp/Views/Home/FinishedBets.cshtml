@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BetInfo>
+
+<table class="table-striped table-bordered dashboard">
+    <caption>Finished bets</caption>
+    <thead>
+        <tr>
+            <th scope="col">PID</th>
+            <th scope="col">Bet</th>
+            <th scope="col">User</th>
+            <th scope="col">Started</th>
+            <th scope="col">Finished</th>
+            <th scope="col">Bet Amount</th>
+            <th scope="col">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var info in Model)
+        {
+            <tr>
+                <td>@info.PID</td>
+                <td>@info.BetId</td>
+                <td>@info.User</td>
+                <td>@info.StartTime</td>
+                <td>@info.EndTime</td>
+                <td>@info.BetAmount</td>
+                <td>@info.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>

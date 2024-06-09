@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetApp", "BetApp\BetApp.csproj", "{F392BEB7-5558-4CEE-8050-EB0EADC3298D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F392BEB7-5558-4CEE-8050-EB0EADC3298D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F392BEB7-5558-4CEE-8050-EB0EADC3298D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F392BEB7-5558-4CEE-8050-EB0EADC3298D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F392BEB7-5558-4CEE-8050-EB0EADC3298D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBC649DC-54D5-4258-B16F-F5044330043C}
+	EndGlobalSection
+EndGlobal

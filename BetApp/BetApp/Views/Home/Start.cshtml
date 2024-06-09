@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Start Bet";
+}
+
+<div class="container">
+    <h4>Start betting process</h4>
+    <form asp-action="Start" method="post">
+        <label for="betId">Enter Bet Id</label>
+        <input type="text" name="betId" />
+        <input type="submit" class="btn btn-sm btn-primary" value="Start betting" />
+    </form>
+</div>

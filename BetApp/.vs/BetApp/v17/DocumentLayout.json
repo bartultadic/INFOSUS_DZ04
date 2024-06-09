@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\itadi\\source\\repos\\BetApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|c:\\users\\itadi\\source\\repos\\betapp\\betapp\\util\\camundautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|solutionrelative:betapp\\util\\camundautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|c:\\users\\itadi\\source\\repos\\betapp\\betapp\\models\\dashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|solutionrelative:betapp\\models\\dashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|c:\\users\\itadi\\source\\repos\\betapp\\betapp\\models\\betinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|solutionrelative:betapp\\models\\betinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|c:\\users\\itadi\\source\\repos\\betapp\\betapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|solutionrelative:betapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|c:\\users\\itadi\\source\\repos\\betapp\\betapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|solutionrelative:betapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|c:\\users\\itadi\\source\\repos\\betapp\\betapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F392BEB7-5558-4CEE-8050-EB0EADC3298D}|BetApp\\BetApp.csproj|solutionrelative:betapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 381,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CamundaUtil.cs",
+              "DocumentMoniker": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Util\\CamundaUtil.cs",
+              "RelativeDocumentMoniker": "BetApp\\Util\\CamundaUtil.cs",
+              "ToolTip": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Util\\CamundaUtil.cs",
+              "RelativeToolTip": "BetApp\\Util\\CamundaUtil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:29:14.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardData.cs",
+              "DocumentMoniker": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Models\\DashboardData.cs",
+              "RelativeDocumentMoniker": "BetApp\\Models\\DashboardData.cs",
+              "ToolTip": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Models\\DashboardData.cs",
+              "RelativeToolTip": "BetApp\\Models\\DashboardData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:29:07.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BetInfo.cs",
+              "DocumentMoniker": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Models\\BetInfo.cs",
+              "RelativeDocumentMoniker": "BetApp\\Models\\BetInfo.cs",
+              "ToolTip": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Models\\BetInfo.cs",
+              "RelativeToolTip": "BetApp\\Models\\BetInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:29:04.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BetApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BetApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:27:49.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Program.cs",
+              "RelativeDocumentMoniker": "BetApp\\Program.cs",
+              "ToolTip": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Program.cs",
+              "RelativeToolTip": "BetApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:24:06.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BetApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\itadi\\source\\repos\\BetApp\\BetApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BetApp\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-09T18:23:41.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

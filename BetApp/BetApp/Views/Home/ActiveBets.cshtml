@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BetInfo>
+
+<table class="table-striped table-bordered dashboard">
+    <caption>Active bets</caption>
+    <thead>
+        <tr>
+            <th scope="col">PID</th>
+            <th scope="col">Bet</th>
+            <th scope="col">User</th>
+            <th scope="col">Started</th>
+            <th scope="col">Administor</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var info in Model)
+        {
+            <tr>
+                <td>@info.PID</td>
+                <td>@info.BetId</td>
+                <td>@info.User</td>
+                <td>@info.StartTime</td>
+                <td>
+                    @if (info.CanApplyForReview)
+                    {
+                        <form asp-action="@nameof(HomeController.ApplyForBetReview)" method="post">
+                            <input type="hidden" name="pid" value="@info.PID" />
+                            <input type="submit" class="btn btn-primary btn-sm" value="Apply" />
+                        </form>
+                    }
+                    else
+                    {
+                        @info.Admin
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,8 @@
+﻿@model TaskInfo
+<td>
+    <form asp-action="@nameof(HomeController.ApproveBet)" method="post">
+        Approved? <input type="checkbox" name="approved" value="true">
+        <input type="hidden" name="taskId" value="@Model.TID" />
+        <input type="submit" class="btn btn-sm btn-primary" value="Approve" />
+    </form>
+</td>
